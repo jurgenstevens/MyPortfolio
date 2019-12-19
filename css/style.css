@@ -33,7 +33,7 @@ body {
 	line-height: 1;
 }
 
-ol, ul {
+ol {
 	list-style: none;
 }
 
@@ -111,7 +111,7 @@ input, select, textarea {
 
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 400;
-		color: #483949;
+		color: ##800020;
 		line-height: 1.25em;
 	}
 
@@ -2057,7 +2057,7 @@ input, select, textarea {
 	.button {
 		position: relative;
 		display: inline-block;
-		background: #df7366;
+		background: gray;
 		color: #fff;
 		text-align: center;
 		border-radius: 0.5em;
@@ -2066,7 +2066,7 @@ input, select, textarea {
 		border: 0;
 		cursor: pointer;
 		outline: 0;
-		font-weight: 300;
+		font-weight: 500;
 		-moz-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
 		-webkit-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
 		-ms-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
@@ -2257,9 +2257,10 @@ input, select, textarea {
 			font-size: 4em;
 		}
 
+/* this is the burgundy colored header body */
 		body.homepage #header:after {
 			content: '';
-			background: #1C0920;
+			background: #800020;
 			display: block;
 			position: absolute;
 			left: 0;
@@ -3138,3 +3139,50 @@ input, select, textarea {
 					}
 
 	}
+
+#contact {
+	display: inline-block;
+}
+
+#hillbomberimg {
+	max-width: 100%;
+	height: auto;
+}
+
+#tamagotchi {
+	max-width: 100%;
+	height: auto;
+}
+
+#linkedin {
+	max-width: 100%;
+	height: auto;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111111;
+}
+
+ul.social-media-list img {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: none;
+    width: 60px;
+    height: 60px;
+    list-style-type: none;
+    margin: 0;
+    display: inline-block;
+    padding: 0;
+    font-size: 0px; /* eliminate space between li */
+}
+
+
+
