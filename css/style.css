@@ -3154,6 +3154,11 @@ input, select, textarea {
 	height: auto;
 }
 
+#ctamap {
+	max-width: 60%;
+	height: auto;
+}
+
 #linkedin {
 	max-width: 100%;
 	height: auto;
