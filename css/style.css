@@ -2178,11 +2178,13 @@ input, select, textarea {
 
 	#header {
 		position: relative;
-		background-image: url("../../images/header.jpg");
+		background-image: url(../chicagoskylineoutline.jpg);
 		background-size: cover;
 		background-position: center center;
 		background-attachment: fixed;
-		color: #fff;
+		background-position: top 600px;
+		color: black;
+		font-size: 18px;
 		text-align: center;
 		padding: 7.5em 0 2em 0;
 		cursor: default;
@@ -2213,7 +2215,7 @@ input, select, textarea {
 			}
 
 		#header h1 {
-			color: #fff;
+			color: black;
 			font-size: 3em;
 			line-height: 1em;
 		}
@@ -2260,7 +2262,6 @@ input, select, textarea {
 /* this is the burgundy colored header body */
 		body.homepage #header:after {
 			content: '';
-			background: #800020;
 			display: block;
 			position: absolute;
 			left: 0;
