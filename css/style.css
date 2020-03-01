@@ -3330,7 +3330,7 @@ ul.social-media-list img {
   width: auto;
   max-width: 150px;
   max-height: 150px;
-  float: center;
+  float: left;
 }
 
 .frameworks {
@@ -3338,12 +3338,16 @@ ul.social-media-list img {
   width: auto;
   max-width: 150px;
   max-height: 150px;
+  float: left;
+  display: inline-block;
+  text-align: center;
 }
 
-.lanrow::after {
+.lanrow {
   content: "";
   clear: both;
-  display: table;
+  display: inline-block;
+  text-align: center;
   border-collapse: collapse;
-  width: 100%;
+  padding-left: 1px;
 }
