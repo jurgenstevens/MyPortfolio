@@ -3276,10 +3276,6 @@ body.homepage.is-preload #header:after {
   }
 }
 
-#contact {
-  display: inline-block;
-}
-
 #hillbomberimg {
   max-width: 100%;
   height: auto;
@@ -3323,6 +3319,19 @@ ul.social-media-list img {
   display: inline-block;
   padding: 0;
   font-size: 0px; /* eliminate space between li */
+}
+
+#contact {
+  float: left;
+  border-collapse: collapse;
+  padding-left: 100px;
+  list-style-type: none;
+}
+.social-media {
+  float: left;
+  text-align: center;
+  border-collapse: collapse;
+  padding-left: 1px;
 }
 
 .languages {
