@@ -3321,17 +3321,29 @@ ul.social-media-list img {
   font-size: 0px; /* eliminate space between li */
 }
 
-#contact {
+/* #linkedin {
   float: left;
-  border-collapse: collapse;
-  padding-left: 100px;
   list-style-type: none;
 }
-.social-media {
+
+#github {
   float: left;
-  text-align: center;
-  border-collapse: collapse;
-  padding-left: 1px;
+  position: absolute;
+  list-style-type: none;
+  left: 150px;
+  bottom: 20px;
+} */
+#social-media-site {
+  list-style-type: none;
+  left: 150px;
+  bottom: 20px;
+}
+
+.social-media {
+  content: "";
+  clear: both;
+  display: table;
+  list-style-type: none;
 }
 
 .languages {
@@ -3340,6 +3352,8 @@ ul.social-media-list img {
   max-width: 150px;
   max-height: 150px;
   float: left;
+  display: inline-block;
+  text-align: center;
 }
 
 .frameworks {
