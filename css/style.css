@@ -3341,6 +3341,19 @@ ul.social-media-list img {
   left: 200px;
   top: 2530px;
 }
+
+#address {
+  position: absolute;
+  height: 150px;
+  width: auto;
+  max-width: 150px;
+  max-height: 150px;
+  float: left;
+  text-align: left;
+  left: 410px;
+  top: 2490px;
+}
+
 /* #social-media-site {
   list-style-type: none;
   left: 150px;
