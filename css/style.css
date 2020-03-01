@@ -3321,23 +3321,31 @@ ul.social-media-list img {
   font-size: 0px; /* eliminate space between li */
 }
 
-/* #linkedin {
+#linkedin {
+  height: 150px;
+  width: auto;
+  max-width: 150px;
+  max-height: 150px;
   float: left;
-  list-style-type: none;
+  text-align: center;
 }
 
 #github {
-  float: left;
   position: absolute;
+  height: 150px;
+  width: auto;
+  max-width: 150px;
+  max-height: 150px;
+  float: left;
+  text-align: center;
+  left: 200px;
+  top: 2530px;
+}
+/* #social-media-site {
   list-style-type: none;
   left: 150px;
   bottom: 20px;
 } */
-#social-media-site {
-  list-style-type: none;
-  left: 150px;
-  bottom: 20px;
-}
 
 .social-media {
   content: "";
@@ -3352,7 +3360,6 @@ ul.social-media-list img {
   max-width: 150px;
   max-height: 150px;
   float: left;
-  display: inline-block;
   text-align: center;
 }
 
@@ -3362,7 +3369,6 @@ ul.social-media-list img {
   max-width: 150px;
   max-height: 150px;
   float: left;
-  display: inline-block;
   text-align: center;
 }
 
