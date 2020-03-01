@@ -3339,7 +3339,7 @@ ul.social-media-list img {
   float: left;
   text-align: center;
   left: 200px;
-  top: 2530px;
+  top: 2520px;
 }
 
 #address {
@@ -3354,11 +3354,11 @@ ul.social-media-list img {
   top: 2490px;
 }
 
-/* #social-media-site {
-  list-style-type: none;
-  left: 150px;
-  bottom: 20px;
-} */
+#github-img {
+  width: 140px;
+  height: 140px;
+  object-fit: contain;
+}
 
 .social-media {
   content: "";
