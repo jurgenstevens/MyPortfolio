@@ -3277,7 +3277,7 @@ body.homepage.is-preload #header:after {
 }
 
 #hillbomberimg {
-  max-width: 100%;
+  max-width: 95%;
   height: auto;
 }
 
@@ -3287,12 +3287,17 @@ body.homepage.is-preload #header:after {
 }
 
 #ctamap {
-  max-width: 60%;
+  max-width: 50%;
   height: auto;
 }
 
 #linkedin {
   max-width: 100%;
+  height: auto;
+}
+
+#comingsoon {
+  max-width: 45%;
   height: auto;
 }
 
