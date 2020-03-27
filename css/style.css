@@ -3336,15 +3336,12 @@ ul.social-media-list img {
 }
 
 #github {
-  position: absolute;
   height: 150px;
   width: auto;
   max-width: 150px;
   max-height: 150px;
   float: left;
   text-align: center;
-  left: 200px;
-  top: 2520px;
 }
 
 #address {
@@ -3355,8 +3352,8 @@ ul.social-media-list img {
   max-height: 150px;
   float: left;
   text-align: left;
-  left: 410px;
-  top: 2490px;
+  left: 450px;
+  top: 2410px;
 }
 
 #github-img {
