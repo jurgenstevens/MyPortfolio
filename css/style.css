@@ -2604,14 +2604,14 @@ body.homepage.is-preload #header:after {
   color: #fff;
 }
 
-#footer .contact {
+/* #footer .contact {
   text-align: center;
 }
 
 #footer .contact p {
   text-align: center;
   margin: 0 0 3em 0;
-}
+} */
 
 #footer .copyright {
   text-align: center;
@@ -3326,25 +3326,25 @@ ul.social-media-list img {
   font-size: 0px; /* eliminate space between li */
 }
 
-#linkedin {
+/* #linkedin {
   height: 150px;
   width: auto;
   max-width: 150px;
   max-height: 150px;
   float: left;
   text-align: center;
-}
+} */
 
-#github {
+/* #github {
   height: 150px;
   width: auto;
   max-width: 150px;
   max-height: 150px;
   float: left;
   text-align: center;
-}
+} */
 
-#address {
+/* #address {
   position: absolute;
   height: 150px;
   width: auto;
@@ -3354,7 +3354,7 @@ ul.social-media-list img {
   text-align: left;
   left: 450px;
   top: 2410px;
-}
+} */
 
 #github-img {
   width: 140px;
