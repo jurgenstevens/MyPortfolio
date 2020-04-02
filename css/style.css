@@ -3362,12 +3362,12 @@ ul.social-media-list img {
   object-fit: contain;
 }
 
-.social-media {
+/* .social-media {
   content: "";
   clear: both;
   display: table;
   list-style-type: none;
-}
+} */
 
 .languages {
   height: 150px;
